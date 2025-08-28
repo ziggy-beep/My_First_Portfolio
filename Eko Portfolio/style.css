@@ -277,6 +277,23 @@ nav {
     margin-bottom: 10px;
 }
 
+.bttn {
+    display: inline-block;
+    background: rgb(178, 193, 194);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid var(--accent);
+}
+
+.bttn:hover {
+    background: white;
+    color: blue;
+}
+
 /* Projects Section */
 #projects {
     position: relative;
